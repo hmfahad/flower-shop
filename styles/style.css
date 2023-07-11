@@ -69,6 +69,7 @@ body {
     width: 700px;
     height: 280px;
     padding-bottom: 16px;
+    
 
 }
 
@@ -208,6 +209,7 @@ body {
     height: 449px;
     padding-top: 80px;
     margin: auto;
+    margin-top: 40px;
 
 
 }
@@ -232,5 +234,5 @@ body {
 
 .copyright {
     color: rgba(255, 255, 255, 0.40);
-    margin-top: 20px;
+    margin-top: 25px;
 }
