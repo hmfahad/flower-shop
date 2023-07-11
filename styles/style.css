@@ -31,6 +31,7 @@ body {
 
     font-size: 40px;
     font-weight: 800;
+    padding: 20px;
 }
 
 
@@ -45,13 +46,6 @@ body {
 
 }
 
-.header-image {
-    width: 666px;
-    height: 800px;
-
-
-
-}
 
 .header-title {
     color: #272727;
@@ -91,4 +85,31 @@ body {
 
 }
 
-.hot-deal-picture {}
+
+
+/* Instagram Style */
+
+.instagram-section-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 15px 0px;
+    text-align: center;
+    
+}
+
+.instagram-text {
+    text-align: center;
+    padding: 30px;
+}
+
+.instagram-pucture-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.instagram-pucture{
+    width: 342px;
+    height: 396px;
+
+}
