@@ -34,6 +34,14 @@ body {
     padding: 20px;
 }
 
+.red-part {
+    color: #E55473;
+}
+
+.color-white{
+    color: white;
+}
+
 
 /* Header Style */
 
@@ -76,9 +84,7 @@ body {
 }
 
 
-.red-part {
-    color: red;
-}
+
 
 .hot-deal-content {
     text-align: center;
@@ -112,4 +118,18 @@ body {
     width: 342px;
     height: 396px;
 
+}
+
+
+/* Footer Style */
+
+.footer-container{
+    background-color: #111010;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 20px;
 }
