@@ -42,6 +42,11 @@ body {
     color: white;
 }
 
+.section-text-container {
+    text-align: center;
+    padding: 30px;
+}
+
 
 /* Header Style */
 
@@ -67,7 +72,83 @@ body {
 
 }
 
+/* featured flower Style */
 
+.featured-flower-section-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 15px 0px;
+    text-align: center;
+
+}
+
+
+
+.featured-flower-pucture-container {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+
+}
+
+#f1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+
+
+}
+
+#f2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+
+}
+
+#f3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+
+}
+
+
+
+.featured-flower-picture {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+#featured-image-left {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#featured-image-middle {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#featured-image-right {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+.link-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.featured-link {
+    width: 464px;
+    margin-top: 10px;
+    color: #272727;
+    font-size: 24px;
+}
 
 
 
@@ -103,10 +184,6 @@ body {
 
 }
 
-.instagram-text {
-    text-align: center;
-    padding: 30px;
-}
 
 .instagram-pucture-container {
     display: flex;
@@ -129,14 +206,14 @@ body {
     background-repeat: no-repeat;
     width: 1440px;
     height: 449px;
-   padding-top: 80px;
-   margin: auto;
+    padding-top: 80px;
+    margin: auto;
 
-   
+
 }
 
 
-.subscribe-container input{
+.subscribe-container input {
     width: 700px;
     height: 40px;
     border-radius: 10px;
@@ -153,7 +230,7 @@ body {
     padding: 100px 0px;
 }
 
-    .copyright {
-        color: rgba(255, 255, 255, 0.40);
-        margin-top: 20px;
-    }
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 20px;
+}
