@@ -1,0 +1,64 @@
+/* common shared styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header Style */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.10);
+
+
+}
+
+.header-image {
+    width: 666px;
+    height: 800px;
+
+
+
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-style: bold;
+    font-weight: bolder;
+    margin-bottom: 32px;
+    width: 700px;
+    height: 280px;
+    padding-bottom: 16px;
+
+}
+
+.header-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+    padding-top: 16px;
+
+
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 32px;
+}
